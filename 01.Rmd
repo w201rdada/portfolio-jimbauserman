@@ -14,7 +14,7 @@ In order to disentangle the effectivess of specific ad copy from other confoudin
 
 <!-- Watch out when running randomized control trials! -->
 ```{r random-trial,echo=FALSE,fig.cap='[xkcd: Complexion](https://xkcd.com/700/)',fig.align='center',out.width='50%'}
-knitr::include_graphics('https://imgs.xkcd.com/comics/complexion.png)
+knitr::include_graphics('https://imgs.xkcd.com/comics/complexion.png')
 ```
 
 [ZZ Then we do some statistics stuff to find out the effectiveness of the ad text. Then we consider breaking down the problem further to evaluate each chunk of an ad. Also, we have to worry about burn-in costs. Extremely ambitious implementation would involve actual NLP, but MVP would not at all]
