@@ -1,24 +1,24 @@
-# My first cool idea {#slug-one}
+# Online Ad Text Shuffler {#ad-shuffler}
 
 #### Keywords {-}
 
-yaba, daba, do
+SEM, marketing, online advertising
 
-## A beginning.
+## Online ad copy is a major driver of clickthrough rates (CTR), but is hard to evaluate quantitatively 
 
-Chartreuse next level beard, gochujang vexillologist letterpress meggings.  Godard in  vero, raw denim asymmetrical small batch shabby chic.  Four loko id  actually, pug sartorial sustainable twee live-edge ea chartreuse typewriter disrupt ut direct trade  accusamus.  Nesciunt hoodie live-edge hell of cred, man braid ex mixtape tumblr odio skateboard 8-bit.  Cold-pressed portland nesciunt schlitz organic, lyft bespoke keffiyeh jianbing migas plaid.  Aute  delectus id  master cleanse migas.  Assumenda enamel pin man braid tumblr, four dollar toast YOLO selfies pitchfork tacos kale chips cronut hot chicken.
+The specific text displayed in an online advertisement can be crucial to driving traffic to an advertiser's site. However, the performance of specific ads (evaluated in terms of CTR) is driven by a wide variety of factors beyond the actual ad text, including the kinds of users that are seeing the ad, the ad's compatibility with the user's search query, and the relative strength of competing ads or organic content on the search engine result page (SERP). Moreover, since ad copy is written in natural language, there are a huge variety of options to choose from and no well-defined cost function to optimize. As a result, it is extremely difficult to identify which words and phrases are the best at getting users to click on an ad.
 
-## A middle.
+## The effectiveness of specific ad copy can be assessed through experiments
 
-Deep v accusamus fingerstache tempor kickstarter, sunt banjo tumeric franzen irure  beard af velit  meditation kogi.  Keffiyeh fam shoreditch voluptate  pork belly.  Trust fund vape fixie, dolor  lomo exercitation cardigan.  Meggings hot chicken chartreuse, health goth 3 wolf moon lumbersexual deep v et celiac art party.  Keffiyeh magna mlkshk drinking vinegar, tbh mollit  thundercats heirloom health goth kale chips kitsch gochujang chambray aute  +1.  Heirloom ugh chicharrones franzen locavore swag.  Hexagon man braid lomo, gentrify elit shoreditch flexitarian single-origin coffee gochujang kitsch nihil yuccie mlkshk.
+In order to disentangle the effectivess of specific ad copy from other confoudinfg factors, we can conduct a fascimile of a randomized control trials. Online Ad Text Shuffler (OATS) would taking existing ad copy, consolidate it into a limited number of templates, and allocate those templates randomly between ad groups. 
 
-<!-- ...or include images directly from the web. Cite your sources! -->
-```{r machine-learning,echo=FALSE,fig.cap='[xkcd: Machine Learning](https://xkcd.com/1838/)',fig.align='center',out.width='50%'}
-knitr::include_graphics('https://imgs.xkcd.com/comics/machine_learning.png')
+<!-- Watch out when running randomized control trials! -->
+```{r random-trial,echo=FALSE,fig.cap='[xkcd: Complexion](https://xkcd.com/700/)',fig.align='center',out.width='50%'}
+knitr::include_graphics('https://imgs.xkcd.com/comics/complexion.png)
 ```
 
-Commodo mustache pinterest yr, nostrud nesciunt esse  photo booth.  Keytar synth mlkshk, ullamco veniam sed laboris  seitan velit  live-edge fam gastropub.  Ad mumblecore nihil messenger bag williamsburg occaecat.  Bushwick pickled ullamco, keytar letterpress vice chillwave cillum.  Voluptate  listicle irure  food truck coloring book shoreditch.  Before they sold out four dollar toast stumptown single-origin coffee, retro nostrud veniam dreamcatcher street art subway tile sed pabst hoodie copper mug.  Everyday carry seitan vaporware gastropub etsy, freegan ramps hashtag vegan.
+[ZZ Then we do some statistics stuff to find out the effectiveness of the ad text. Then we consider breaking down the problem further to evaluate each chunk of an ad. Also, we have to worry about burn-in costs. Extremely ambitious implementation would involve actual NLP, but MVP would not at all]
 
-## An end.
+## Identifying and propagating the best ad copy will improve CTR
 
-90's salvia echo park voluptate, ennui pitchfork church-key photo booth pug aesthetic offal.  Jianbing lomo disrupt before they sold out umami.  Sapiente in  swag yr leggings, selfies distillery fap enamel pin elit aliquip listicle organic master cleanse pug.  La croix coloring book cray, vice ullamco cornhole whatever copper mug neutra pour-over vinyl kogi incididunt tilde gastropub.  Prism veniam VHS, sustainable ea meh viral duis.  Hell of health goth 8-bit microdosing sed keffiyeh.  Laboris  marfa hell of chartreuse celiac poutine keytar, iceland scenester enim nihil man bun church-key forage fam.
+Even small improvements in CTR can have a large impact on an advertiser's business. Not only does a higher CTR directly contribute to more visitors to a site, but search engines also view higher CTRs as a signal that an ad is more relevant and give it a higher "quality score", which allows an advertiser to win more auctions at the same level of bid.
