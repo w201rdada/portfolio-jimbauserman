@@ -1,13 +1,14 @@
 ---
 title: "W201 Portfolio"
-author: "Oski Bear"
-date: "MIDS Fall 2017"
+author: "Jim Bauserman"
+date: "MIDS Spring 2018"
 site: bookdown::bookdown_site
 documentclass: book
 ---
 
 <!-- This won't be displayed but it will initialize your R session. Add any R libraries you need here. -->
 ```{r init,include=FALSE,echo=FALSE}
+readLines('https://www.zotero.org/api/users/4668934/collections/7H9Q3449/items/top?limit=25&format=bibtex&key=z6Fa3Tmi8pcy01atSno11LMk&v=1') %>% writeLines('references.bib')
 library(magrittr)
 ```
 
