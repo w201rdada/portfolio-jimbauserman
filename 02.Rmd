@@ -1,25 +1,27 @@
-# My second cool idea {#slug-two}
+# Skill Recommendations for Job Seekers {#job-search-coach}
 
 #### Keywords {-}
 
-yaba, daba, do
+job search, employment, education, skills gap
 
-## A beginning.
+## Specialization creates a mismatch between jobs and qualified candidates
 
-Nulla  sint  art party ex, mlkshk disrupt selvage 90's.  Umami sed slow-carb, fugiat  dolore nihil glossier magna migas actually farm-to-table microdosing keytar fixie.  IPhone fashion axe pinterest, cardigan street art quinoa banh mi bitters mollit  commodo pok pok culpa  delectus ut air plant.  Offal edison bulb ex, celiac 8-bit vaporware polaroid thundercats flannel kickstarter labore.  Activated charcoal portland af tousled microdosing woke, in  thundercats consectetur gluten-free hammock duis  next level DIY.  Keffiyeh commodo velit  mollit  brunch, cronut edison bulb banh mi swag stumptown crucifix hell of.  Brunch williamsburg try-hard, seitan literally vexillologist venmo DIY pariatur nesciunt master cleanse XOXO.
+Despite low levels of overall unemployment, the US economy faces skills gap in many industries such as healthcare, IT, and manufacturing. This leads to both unfilled vacancies and workers without jobs. Moreover, according to the Third Way Center, "[m]ost of these occupations do not necessarily require four-year college degrees, but do require specialized training and some sort of credential" [@stephens_mind_2017]. This means that the skills gap could be bridged if job seekers could acquire these relatively low-cost credentials. However, workers frequently consider education and employment as two related but separate problems, potentially missing out on training opportunities that could significantly advance their careers. 
 
-## A middle.
+As technology continues to advance, workers will need to seek retraining and change jobs more frequently [@economist_lifelong_2017]. Currently, it is not easy for workers to understand which new skills are most in-demand. This can lead to significant losses, as workers fail to obtain skills or, worse, spend time and money obtaining the wrong ones. The importance of identifying the best skills for each worker will only become greater over time.
 
-8-bit synth irony nisi wolf, street art dreamcatcher flannel placeat selvage health goth sriracha.  Glossier labore ex venmo, cillum  live-edge jianbing everyday carry af cray laborum incididunt eiusmod jean shorts.  Normcore slow-carb lyft letterpress, beard tilde art party.  Poke marfa incididunt tempor duis.  Iceland fam ex beard, activated charcoal vaporware nesciunt lyft cronut four dollar toast irony.  Officia  stumptown voluptate  unicorn culpa  bushwick.  Mollit  vero af marfa deserunt  flexitarian.
+## Returns to gaining specific skills can be predicted 
 
+In-demand skills can be identified by observing current job listings. These skills can then be translated into specific training and certification courses that are recommended to job seekers. These recommendations would provide the job seeker with tangible options for gaining new skills, along with some estimate of their gains from doing so.
 
-```{r experimental,echo=F,results='asis',eval=F}
-data.table::fread('https://raw.githubusercontent.com/UCB-MIDS/experiments-causality/master/data/GerberGreenBook_Chapter3_Donations.csv?token=ABNmuX-Q14rzQ4teItDenc9L5Wo2flncks5ZL5qEwA%3D%3D') %>% stargazer::stargazer(type = 'html',title = 'Something from W241 Experiments and Causality')
-```
+Given a database of job listings and their requirements, the skill gap for each type of skills or certification can be estimated. This would allow us to identify which skills are most likely to get job seekers' jobs. If we also have information on the wages of those jobs, we can estimate which skills earn workers the most money. More specifically, we can collect a dataset that counts the number of current job listings that require each type of skill or certification over time and the average wages of those listings. Then, we can forecast the expected number of job openings requiring each skill or certification, and how much they would pay. This would tell us what kind of opportunities a worker could expect if they were to start taking classes to acquire a certification today. These estimates would also be able to account for a job seeker's location to make them more relevant to that person.
 
+Specific certifications would need to be categorized into broader categories. Depending on the scale of the implementation, this could be done manually or by observing which certification names and other keywords appear together in job listings (or appear in similar job listings). Different skills could be grouped in a variety of ways (e.g. the most common industry they are used in, the most common job titles requiring them, the licensing organization they are given by), and these similarities could be exploited to provide more accurate estimates of demand for skills where data coverage might be poor.
 
-Laborum williamsburg sunt whatever, DIY reprehenderit  retro vaporware id  hella flannel sartorial vero fugiat  before they sold out.  Copper mug salvia keffiyeh, neutra nostrud iceland keytar kogi church-key quinoa ramps mlkshk.  Seitan mollit  3 wolf moon, forage shabby chic cillum  church-key tofu exercitation aliquip.  Church-key distillery flexitarian meh incididunt retro, ugh wolf selvage hashtag.  Bicycle rights 90's officia  vape.  Listicle post-ironic vape ex.  Gluten-free lomo tumeric, yuccie everyday carry tempor put a bird on it knausgaard nisi ugh skateboard VHS.
+Given a database of job seekers and their characteristics, ideally including education and job history, we can recommend skills that have the potential to give job seekers the largest return. These would be skills or certifications that would open up the most new jobs that the job seeker wasn't previously qualified for. These recommendations could then be matched with specific training and certification courses, providing job seekers with a more personalized experience and minimizing the amount of friction between them and a potentially beneficial education opportunity.
 
-## An end.
+## Job seekers can better understand their choices with more information
 
-Kombucha pok pok lomo, forage bicycle rights paleo kickstarter literally.  Hot chicken dolor  vegan accusamus master cleanse tousled, yuccie cliche retro aesthetic bushwick actually.  Ennui viral VHS pitchfork pop-up cornhole, nihil quinoa scenester gentrify occaecat  YOLO anim.  Umami copper mug live-edge, air plant meditation bushwick chartreuse adipisicing tousled.  Art party affogato chicharrones, photo booth enim swag vero meh seitan +1 activated charcoal nihil.  Etsy gluten-free authentic mixtape.  Shabby chic duis  90's pop-up pinterest, lumbersexual mollit  cillum.
+By integrating the process of retraining and job seeking, workers are empowered to make better decisions about the path of their career. Job seekers can survey their full list of options and do so in a way that makes the benefits of retraining clear and tangible, reducing the inaction produced by lack of easily available information and the lure of the status quo. This tool could even be used by workers who are not currently looking for another job, but still want to be on the lookout for potential opportunities. 
+
+From the perspective of the business providing these recommendations, this also presents an opportunity to provide extremely targeted advertising for organizations that run these training and certification courses. By connecting wosrkers and education companies in this way, we can generate value for both sides, increase the efficiency of the job market, and help to close the skills gap.
