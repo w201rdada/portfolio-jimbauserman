@@ -32,11 +32,7 @@ I propose using natural language processing and careful modeling to optimize ad 
 
 ### Abstract of my second cool idea {-}
 
-Nothing here yet.
-  
-### Abstract of my third cool idea {-}
-
-Also nothing here.
+I propose using job listings and other data to estimate the returns from various kinds of professional training and qualifications in order to recommend these training options to job seekers.
 
 ## About the author {-}
 

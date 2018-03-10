@@ -1,5 +1,9 @@
 # Skill Recommendations for Job Seekers {#job-search-coach}
 
+#### Abstract {-}
+
+(ref:abs2)
+
 #### Keywords {-}
 
 job search, employment, education, skills gap

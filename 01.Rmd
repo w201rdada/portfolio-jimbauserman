@@ -1,5 +1,9 @@
 # Online Ad Text Shuffler (OATS) {#ad-shuffler}
 
+#### Abstract {-}
+
+(ref:abs1)
+
 #### Keywords {-}
 
 search engine marketing, online advertising, natural language processing, ad testing
